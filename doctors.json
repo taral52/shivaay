@@ -1,0 +1,241 @@
+[
+  {
+    "docPathName": "dr-jaydip-mangroliya",
+    "imgpath":"jd-profile.png",
+    "docName":"Dr. Jaydip Mangroliya",
+    "specialty":"D.M. Nuerology",
+    "desc":"Dr. Jaydip Mangroliya has completed his Doctorate of Medicine (D.M.) in the field of Neurology from renowned Manipal Academy of Higher ...",
+    "fulldesc":"Dr. Jaydip Mangroliya has completed his Doctorate of Medicine (D.M.) in the field of Neurology from renowned Manipal Academy of Higher Education, located in the university town of Manipal, Udupi, Karnataka, India in 2020. He had completed his Doctor of Medicine (M.D.) from SMT. NHL Municipal Medical College (V. S. Hospital) – ahmedabad, gujarat - India in 2017 and M.B.B.S. from B.J. Medical College and Civil hospital, situated in ahmedabad, gujarat - India in 2014. His willingness and desire to learn new things keeps him up to date with the latest innovations in the field of neurology.",
+    "phone":"78743 55907",
+    "email":"jd@shivaay.com",
+    "workinghours" : [
+        {"day":  "Monday", "time": "9.00AM-8.00PM"},
+        {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
+        {"day":  "Wednesday", "time": "9.00AM-8.00PM"},
+        {"day":  "Sunday", "time": "9.00AM-8.00PM"}
+    ],
+    "treatments": [
+      {
+        "name": "Dementia",
+        "imgpath": "dementia.webp",
+        "desc": "Dementia is a common disease which might progress with age. Need not to worry as we are here to help you."
+      },
+      {
+        "imgpath":"migraine.png",
+        "name":"Migraine",
+        "desc":"A headache of varying intensity, often accompanied by nausea and sensitivity to light and sound. We are here to help you."
+      },
+      {
+        "imgpath":"headache.webp",
+        "name":"Headache",
+        "desc":"For all your headaches and related problems contact us. Our expert team of doctors will help you out."
+      },
+      {
+        "imgpath":"parkinson.webp",
+        "name":"Parkinson's Disease",
+        "desc":"Our expert doctors help with controlling Parkinson disease. Book an immediate appointment with us."
+      },
+      {
+        "imgpath":"tremor.webp",
+        "name":"Tremor",
+        "desc":"Our doctors are highly trained & well experienced in dealing with neurological problems like tremors."
+      },
+      {
+        "imgpath":"peripheral-nueropathy.webp",
+        "name": "Neuropathy",
+        "desc":"Numbness in hands and feet may be due to peripheral neuropathy. Book an appointment for prompt and prolific diagnosis."
+      },
+      {
+        "imgpath": "nueropathic-pain.webp",
+        "name": "Neuropathic Pain",
+        "desc":"Our doctors are fully proficient to deal with this chronic pain that is usually accompanied by tissue injury."
+      },
+      {
+        "imgpath":"epilepsy.webp",
+        "name":"Epilepsy",
+        "desc":"Epilepsy can be controlled. Let our expert doctors help you out with best care and advanced treatments."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Doctorate of Medicine ( D.M. ) in Neurology",
+        "from": "Manipal Academy of Higher Education, Udupi, Karnataka"
+      },
+      {
+        "degree": "Doctor of Medicine ( M.D. )",
+        "from": "SMT. NHL Municipal Medical College (V. S. Hospital) – Ahmedabad, Gujarat"
+      },
+      {
+        "degree": "M.B.B.S",
+        "from": "B.J. Medical College and Civil hospital – Ahmedabad, Gujarat"
+      }
+    ]
+  },
+  {
+    "docPathName": "dr-neil-palkhiwala",
+    "imgpath":"team-image2.jpg",
+    "docName":"Dr. Neil Palkhiwala",
+    "specialty":"D.M. Gastroenterology & Hepatolog",
+    "desc":"Dr. Neil Palkhiwala has completed his Doctorate of Medicine (D.M.) in the field of Gastroenterology and Hepatology from renowned Manipal Academy ...",
+    "fulldesc":"Dr. Neil Palkhiwala has completed his Doctorate of Medicine (D.M.) in the field of Gastroenterology & Hepatology from renowned Manipal Academy of Higher Education, located in the university town of Manipal, Udupi, Karnataka, India in 2020. He had completed his Doctor of Medicine (M.D.) and M.B.B.S. from SMT. NHL Municipal Medical College (V. S. Hospital) – Ahmedabad, Gujarat - India in 2017 and 2014 respectively. His willingness and desire to learn new things keeps him up to date with the latest innovations in the field of gastroenterology and hepatology.",
+    "phone":"96242 60132",
+    "email":"neil@shivaay.com",
+    "workinghours" : [
+      {"day":  "Monday", "time": "9.00AM-8.00PM"},
+      {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
+      {"day":  "Wednesday", "time": "9.00AM-8.00PM"},
+      {"day":  "Sunday", "time": "9.00AM-8.00PM"}
+    ],
+    "treatments" : [],
+    "education": [
+      {
+        "degree": "Doctorate of Medicine ( D.M. ) in Gastroenterology and Hepatology",
+        "from": "Manipal Academy of Higher Education, Udupi, Karnataka"
+      },
+      {
+        "degree": "Doctor of Medicine ( M.D. )",
+        "from": "SMT. NHL Municipal Medical College (V. S. Hospital) – Ahmedabad, Gujarat"
+      },
+      {
+        "degree": "M.B.B.S",
+        "from": "SMT. NHL Municipal Medical College (V. S. Hospital) – Ahmedabad, Gujarat"
+      }
+    ]
+  },
+  {
+    "docPathName": "dr-mohit-kejariwal",
+    "imgpath":"team-image1.jpg",
+    "docName":"Dr. Mohit Kejariwal",
+    "specialty":"D.M. Cardiology",
+    "desc":"Dr. Mohit P. Kejariwal has completed his Doctorate of Medicine (D.M.) in the field of Cardiology from renowned G.S.V.M. Medical College, Kanpur...",
+    "fulldesc":"Dr. Mohit P. Kejariwal has completed his Doctorate of Medicine (D.M.) in the field of Cardiology from renowned G.S.V.M. Medical College, Kanpur, known for its academic excellence world over in 2020. Dr. Mohit is an Interventional Cardiologist. He has experience in ECG, Adult & Pediatric Echo, TMT, Holter, Ambulatory BP monitoring, CT coronary angiography, Pericardiocentesis, Pacemaker and Angiography/Angioplasty. He is also a second-degree holder in the Reiki method of natural healing. With him, you can experience a unique blend of natural healing and modern treatment.",
+    "phone":"96242 60132",
+    "email":"mohit@shivaay.com",
+    "workinghours" : [
+      {"day":  "Monday", "time": "9.00AM-8.00PM"},
+      {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
+      {"day":  "Wednesday", "time": "9.00AM-8.00PM"},
+      {"day":  "Sunday", "time": "9.00AM-8.00PM"}
+    ],
+    "treatments" : [
+      {
+        "name": "Angina",
+        "imgpath": "dementia.webp",
+        "desc": "Angina is a type of chest pain caused by reduced blood flow to the heart. Need not to worry as we are here to help you."
+      },
+      {
+        "name": "Myocardial Infarction",
+        "imgpath": "dementia.webp",
+        "desc": "A myocardial infarction (MI), commonly known as a heart attack, occurs when blood flow decreases or stops to a part of the heart, causing damage to the heart muscle."
+      },
+      {
+        "name": "Cardiomyopathy",
+        "imgpath": "dementia.webp",
+        "desc": "Cardiomyopathy is a disease of the heart muscle that makes it harder for your heart to pump blood to the rest of your body. We are here to help you."
+      },
+      {
+        "name": "Stroke",
+        "imgpath": "dementia.webp",
+        "desc": "Stroke is when the blood supply to the brain is interrupted, causing a part of the brain to die."
+      },
+      {
+        "name": "Rheumatic Heart Disease",
+        "imgpath": "dementia.webp",
+        "desc": "Rheumatic heart disease is a condition in which the heart valves have been permanently damaged by rheumatic fever. Book an appointment for prompt and prolific diagnosis."
+      },
+      {
+        "name": "Carditis",
+        "imgpath": "dementia.webp",
+        "desc": "Carditis is the inflammation of the heart. Let our expert doctors help you out with best care and advanced treatments."
+      },
+      {
+        "name": "Aortic Aneurysms",
+        "imgpath": "dementia.webp",
+        "desc": "An aortic aneurysm is an abnormal bulge that occurs in the wall of the major blood vessel (aorta) that carries blood from your heart to your body."
+      },
+      {
+        "name": "Abnormal Heart Rhythms",
+        "imgpath": "dementia.webp",
+        "desc": "Heart rhythm problems (heart arrhythmias) occur when the electrical impulses that coordinate your heartbeats don't work properly, causing your heart to beat too fast, too slow or irregularly."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Doctorate of Medicine ( D.M. ) in Cardiology",
+        "from": "G.S.V.M. Medical College, Kanpur"
+      },
+      {
+        "degree": "Doctor of Medicine ( M.D. )",
+        "from": "SMT. NHL Municipal Medical College (V. S. Hospital) – Ahmedabad, Gujarat"
+      },
+      {
+        "degree": "M.B.B.S",
+        "from": "B.J. Medical College and Civil hospital – Ahmedabad, Gujarat"
+      }
+    ]
+  },
+  {
+    "docPathName": "dr-manish-sadhwani",
+    "imgpath":"dr-manish.jpeg",
+    "docName":"Dr. Manish Sadhwani",
+    "specialty":"M.Ch. Oncology",
+    "desc":"Dr. Manish Sadhwani has completed his master of chirurgiae (M.Ch.) in field of surgical oncology (Cancer Surgery) from renowned...",
+    "fulldesc":"Dr. Manish Sadhwani has completed his master of chirurgiae (M.Ch.) in field of surgical oncology (Cancer Surgery) from renowned Gujarat Cancer and Research Institute affiliated to New Civil Hospital, Ahmedabad in 2020. He got an advance training in Gastroenterology cancer surgery from Japan.",
+    "phone":"96242 60132",
+    "email":"manish@shivaay.com",
+    "workinghours" : [
+      {"day":  "Monday", "time": "9.00AM-8.00PM"},
+      {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
+      {"day":  "Wednesday", "time": "9.00AM-8.00PM"},
+      {"day":  "Sunday", "time": "9.00AM-8.00PM"}
+    ],
+    "treatments" : [
+      {
+        "name": "Oral Cancer",
+        "imgpath": "dementia.webp",
+        "desc": "Cancer that develops in any part of the mouth."
+      },
+      {
+        "name": "Thyroid Cancer",
+        "imgpath": "dementia.webp",
+        "desc": "A cancer of the thyroid, the butterfly-shaped gland at the base of the neck."
+      },
+      {
+        "name": "Brest Cancer",
+        "imgpath": "dementia.webp",
+        "desc": "A cancer that forms in the cells of the breasts. We are here to help you."
+      },
+      {
+        "name": "Lung Cancer",
+        "imgpath": "dementia.webp",
+        "desc": "A cancer that begins in the lungs and most often occurs in people who smoke. Need not to worry as we are here to help you."
+      },
+      {
+        "name": "GI Cancer",
+        "imgpath": "dementia.webp",
+        "desc": "GI cancer refers to malignant conditions of the gastrointestinal tract (GI tract) and accessory organs of digestion. Book an appointment for prompt and prolific diagnosis."
+      },
+      {
+        "name": "Gynec Cancer",
+        "imgpath": "dementia.webp",
+        "desc": "Gynecologic cancer is any cancer that starts in a woman's reproductive organs. Let our expert doctors help you out with best care and advanced treatments."
+      },
+      {
+        "name": "Urology Cancer",
+        "imgpath": "dementia.webp",
+        "desc": "Urologic cancers affect the organs and structures of the male and female urinary system and the male reproductive system."
+      },
+      {
+        "name": "Minimal Access Surgery",
+        "imgpath": "dementia.webp",
+        "desc": "Dr. Manish Sadhwani is a Dynamic Surgeon skilled in Minimal Access Surgeries."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Chirurgiae ( M.Ch. ) in field of Surgical Oncology(Cancer Surgery)",
+        "from": "Gujarat Cancer and Research Institute, Ahmedabad , Gujarat"
+      }
+    ]
+  }
+]
