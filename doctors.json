@@ -9,10 +9,10 @@
     "phone":"78743 55907",
     "email":"shivaay.clinic@gmail.com",
     "workinghours" : [
-        {"day":  "Monday", "time": "9.00AM-8.00PM"},
-        {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
-        {"day":  "Wednesday", "time": "9.00AM-8.00PM"},
-        {"day":  "Sunday", "time": "9.00AM-8.00PM"}
+      {"day":  "Monday", "time": "9.00AM-8.00PM"},
+      {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
+      {"day":  "Wednesday", "time": "9.00AM-8.00PM"},
+      {"day":  "Sunday", "time": "9.00AM-8.00PM"}
     ],
     "treatments": [
       {
