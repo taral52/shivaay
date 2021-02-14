@@ -7,7 +7,7 @@
     "desc":"Dr. Jaydip Mangroliya has completed his Doctorate of Medicine (D.M.) in the field of Neurology from renowned Manipal Academy of Higher ...",
     "fulldesc":"Dr. Jaydip Mangroliya has completed his Doctorate of Medicine (D.M.) in the field of Neurology from renowned Manipal Academy of Higher Education, located in the university town of Manipal, Udupi, Karnataka, India in 2020. He had completed his Doctor of Medicine (M.D.) from SMT. NHL Municipal Medical College (V. S. Hospital) – ahmedabad, gujarat - India in 2017 and M.B.B.S. from B.J. Medical College and Civil hospital, situated in ahmedabad, gujarat - India in 2014. His willingness and desire to learn new things keeps him up to date with the latest innovations in the field of neurology.",
     "phone":"78743 55907",
-    "email":"jd@shivaay.com",
+    "email":"shivaay.clinic@gmail.com",
     "workinghours" : [
         {"day":  "Monday", "time": "9.00AM-8.00PM"},
         {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
@@ -81,10 +81,9 @@
     "phone":"96242 60132",
     "email":"shivaay.clinic@gmail.com",
     "workinghours" : [
-      {"day":  "Monday", "time": "9.00AM-8.00PM"},
-      {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
-      {"day":  "Wednesday", "time": "9.00AM-8.00PM"},
-      {"day":  "Sunday", "time": "9.00AM-8.00PM"}
+      {"day":  "Monday", "time": "6.00PM-8.00PM"},
+      {"day":  "Wednesday", "time": "6.00PM-8.00PM"},
+      {"day":  "Friday", "time": "6.00PM-8.00PM"}
     ],
     "treatments" : [],
     "education": [
@@ -109,13 +108,15 @@
     "specialty":"D.M. Cardiology",
     "desc":"Dr. Mohit P. Kejariwal has completed his Doctorate of Medicine (D.M.) in the field of Cardiology from renowned G.S.V.M. Medical College, Kanpur...",
     "fulldesc":"Dr. Mohit P. Kejariwal has completed his Doctorate of Medicine (D.M.) in the field of Cardiology from renowned G.S.V.M. Medical College, Kanpur, known for its academic excellence world over in 2020. Dr. Mohit is an Interventional Cardiologist. He has experience in ECG, Adult & Pediatric Echo, TMT, Holter, Ambulatory BP monitoring, CT coronary angiography, Pericardiocentesis, Pacemaker and Angiography/Angioplasty. He is also a second-degree holder in the Reiki method of natural healing. With him, you can experience a unique blend of natural healing and modern treatment.",
-    "phone":"96242 60132",
-    "email":"mohit@shivaay.com",
+    "phone":"75678 77845",
+    "email":"drmohitpk@gmail.com",
     "workinghours" : [
-      {"day":  "Monday", "time": "9.00AM-8.00PM"},
-      {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
-      {"day":  "Wednesday", "time": "9.00AM-8.00PM"},
-      {"day":  "Sunday", "time": "9.00AM-8.00PM"}
+      {"day":  "Monday", "time": "11.00AM-12.00PM"},
+      {"day":  "Tuesday", "time": "11.00AM-12.00PM"},
+      {"day":  "Wednesday", "time": "11.00AM-12.00PM"},
+      {"day":  "Thursday", "time": "11.00AM-12.00PM"},
+      {"day":  "Friday", "time": "11.00AM-12.00PM"},
+      {"day":  "Saturday", "time": "11.00AM-12.00PM"}
     ],
     "treatments" : [
       {
@@ -181,13 +182,15 @@
     "specialty":"M.Ch. Oncology",
     "desc":"Dr. Manish Sadhwani has completed his master of chirurgiae (M.Ch.) in field of surgical oncology (Cancer Surgery) from renowned...",
     "fulldesc":"Dr. Manish Sadhwani has completed his master of chirurgiae (M.Ch.) in field of surgical oncology (Cancer Surgery) from renowned Gujarat Cancer and Research Institute affiliated to New Civil Hospital, Ahmedabad in 2020. He got an advance training in Gastroenterology cancer surgery from Japan.",
-    "phone":"96242 60132",
-    "email":"manish@shivaay.com",
+    "phone":"97253 69794",
+    "email":"sadhwanimanish2@gmail.com",
     "workinghours" : [
-      {"day":  "Monday", "time": "9.00AM-8.00PM"},
-      {"day":  "Tuesday", "time": "9.00AM-8.00PM"},
-      {"day":  "Wednesday", "time": "9.00AM-8.00PM"},
-      {"day":  "Sunday", "time": "9.00AM-8.00PM"}
+      {"day":  "Monday", "time": "10.00AM-12.00PM"},
+      {"day":  "Tuesday", "time": "10.00AM-12.00PM"},
+      {"day":  "Wednesday", "time": "10.00AM-12.00PM"},
+      {"day":  "Thursday", "time": "10.00AM-12.00PM"},
+      {"day":  "Friday", "time": "10.00AM-12.00PM"},
+      {"day":  "Saturday", "time": "10.00AM-12.00PM"}
     ],
     "treatments" : [
       {
