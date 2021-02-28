@@ -240,5 +240,121 @@
         "from": "Gujarat Cancer and Research Institute, Ahmedabad , Gujarat"
       }
     ]
+  },
+  {
+    "docPathName": "dr-dhiren-raval",
+    "imgpath":"dr-dhiren.jpg",
+    "docName":"Dr. Dhiren Raval",
+    "specialty":"DNB Rheumatology",
+    "desc":"Dr. Dhiren N. Raval has completed his DNB Rheumatology - from Medanta the medicity - Gurgaon and...",
+    "fulldesc":"Dr. Dhiren N. Raval has completed his DNB Rheumatology - from Medanta the medicity - Gurgaon and DNB medicine from Jalsok hospital - Mumbai.",
+    "phone":"NA",
+    "email":"NA",
+    "workinghours" : [
+      {"day":  "Monday", "time": "2.00PM-4.00PM"},
+      {"day":  "Tuesday", "time": "2.00PM-4.00PM"},
+      {"day":  "Wednesday", "time": "2.00PM-4.00PM"},
+      {"day":  "Thursday", "time": "2.00PM-4.00PM"},
+      {"day":  "Friday", "time": "2.00PM-4.00PM"}
+    ],
+    "treatments" : [
+      { "desc": "",
+        "imgpath":"",
+        "name": "Rheumatoid Arthritis (RA)" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Spondyloarthritis" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Sjogren's Syndrome" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Psoriatic Arthritis" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Osteo Arthritis" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Osteoporosis" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Gout" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Systemic lupus erythematosus (SLE)" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Juvenile Idiopathic Arthritis (JIA)" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Scleroderma" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Viral Arthritis" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Vasculitis" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Myositis" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Soft Tissue Rheumatism (Tennis elbow, frozen shoulder, Plantar fasciitis, Carpal tunnel syndrome, Fibromyalgia)" },
+      { "desc": "",
+        "imgpath":"",
+        "name": "Joint Injection"}
+    ],
+    "education": [
+      {
+        "degree": "DNB Rheumatology",
+        "from": "Medanta the medicity - Gurgaon"
+      },
+      {
+        "degree": "Doctor of Medicine ( M.D. )",
+        "from": "Jalsok hospital - Mumbai Maharashtra"
+      }
+    ]
+  },
+  {
+    "docPathName": "dr-fenil-patel",
+    "imgpath":"dr-fenil.jpg",
+    "docName":"Dr. Fenil Patel",
+    "specialty":"Diploma in Dermatology, Venereology & Leprosy",
+    "desc":"Dr. Fenil Patel has completed his DDVL (Diploma in Dermatology, Venereology & Leprosy) from renowned Kasturba Medical college, Manipal, Karnataka and...",
+    "fulldesc":"Dr. Fenil Patel has completed his DDVL (Diploma in Dermatology, Venereology & Leprosy) from renowned Kasturba Medical college, Manipal, Karnataka and MBBS – B.J. Medical college, Ahmedabad, Gujarat. Dr. Fenil Patel is Trained in Laser and Asthetics under well known dermatologist of India DR. Koushik Lahiri (Wizderm Speciality Skin And Hair Clinic, Kolkata). Author of two chapters in text book of postgraduate dermatology.",
+    "phone":"NA",
+    "email":"NA",
+    "workinghours" : [
+      {"day":  "Tuesday", "time": "1.00PM-3.00PM"},
+      {"day":  "Thursday", "time": "1.00PM-3.00PM"}
+    ],
+    "treatments" : [
+      { "desc": "", "imgpath": "", "name": "Diagnosis and treatment of skin disease, sexually transmitted disease and leprosy"},
+      { "desc": "", "imgpath": "", "name": "Cryotherapy"},
+      { "desc": "", "imgpath": "", "name": "Electrodessication"},
+      { "desc": "", "imgpath": "", "name": "Chemical cautery"},
+      { "desc": "", "imgpath": "", "name": "Phototherapy"},
+      { "desc": "", "imgpath": "", "name": "Immunofluorescence  for dermatology"},
+      { "desc": "", "imgpath": "", "name": "Vitiligo surgery"},
+      { "desc": "", "imgpath": "", "name": "Chemical peel"},
+      { "desc": "", "imgpath": "", "name": "Nail surgery"},
+      { "desc": "", "imgpath": "", "name": "Derma rolling and PRP for hair loss"},
+      { "desc": "", "imgpath": "", "name": "PRF for non healing ulcers"},
+      { "desc": "", "imgpath": "", "name": "Laser hair reduction – by DIODE  LASER"},
+      { "desc": "", "imgpath": "", "name": "Acne scar treatment- Fractional CO2 LASER , Derma rolling"},
+      { "desc": "", "imgpath": "", "name": "RF micro needling"},
+      { "desc": "", "imgpath": "", "name": "Patch test and Photo Patch test"},
+      { "desc": "", "imgpath": "", "name": "Mesotherapy"}
+    ],
+    "education": [
+      {
+        "degree": "Diploma in Dermatology, Venereology & Leprosy",
+        "from": "Kasturba Medical college, Manipal, Karnataka"
+      },
+      {
+        "degree": "M.B.B.S",
+        "from": "B.J. Medical college, Ahmedabad, Gujarat"
+      }
+    ]
   }
 ]

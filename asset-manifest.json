@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.df1a5e04.chunk.css",
-    "main.js": "/static/js/main.f9c9bf63.chunk.js",
-    "main.js.map": "/static/js/main.f9c9bf63.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5ce978b5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5ce978b5.js.map",
+    "main.js": "/static/js/main.6ee68e7d.chunk.js",
+    "main.js.map": "/static/js/main.6ee68e7d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.70a55ac5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.70a55ac5.js.map",
     "static/css/2.e09a9aa4.chunk.css": "/static/css/2.e09a9aa4.chunk.css",
-    "static/js/2.fa9c64c5.chunk.js": "/static/js/2.fa9c64c5.chunk.js",
-    "static/js/2.fa9c64c5.chunk.js.map": "/static/js/2.fa9c64c5.chunk.js.map",
-    "static/js/3.27b25345.chunk.js": "/static/js/3.27b25345.chunk.js",
-    "static/js/3.27b25345.chunk.js.map": "/static/js/3.27b25345.chunk.js.map",
+    "static/js/2.03d1e472.chunk.js": "/static/js/2.03d1e472.chunk.js",
+    "static/js/2.03d1e472.chunk.js.map": "/static/js/2.03d1e472.chunk.js.map",
+    "static/js/3.6b2b2ea2.chunk.js": "/static/js/3.6b2b2ea2.chunk.js",
+    "static/js/3.6b2b2ea2.chunk.js.map": "/static/js/3.6b2b2ea2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.e09a9aa4.chunk.css.map": "/static/css/2.e09a9aa4.chunk.css.map",
     "static/css/main.df1a5e04.chunk.css.map": "/static/css/main.df1a5e04.chunk.css.map",
-    "static/js/2.fa9c64c5.chunk.js.LICENSE.txt": "/static/js/2.fa9c64c5.chunk.js.LICENSE.txt",
+    "static/js/2.03d1e472.chunk.js.LICENSE.txt": "/static/js/2.03d1e472.chunk.js.LICENSE.txt",
     "static/media/about-bg-trans-mobile.webp": "/static/media/about-bg-trans-mobile.4a45c6ea.webp",
     "static/media/about-bg-trans.webp": "/static/media/about-bg-trans.c91b2c52.webp",
     "static/media/about-bg.webp": "/static/media/about-bg.697b7488.webp",
@@ -26,6 +26,8 @@
     "static/media/appointment1.jpg": "/static/media/appointment1.67bcc3e5.jpg",
     "static/media/appointment2.jpg": "/static/media/appointment2.f975f73a.jpg",
     "static/media/dementia.webp": "/static/media/dementia.ed324b1a.webp",
+    "static/media/dr-dhiren.jpg": "/static/media/dr-dhiren.c53ea6f0.jpg",
+    "static/media/dr-fenil.jpg": "/static/media/dr-fenil.15707611.jpg",
     "static/media/dr-manish.jpeg": "/static/media/dr-manish.214c199c.jpeg",
     "static/media/epilepsy.webp": "/static/media/epilepsy.0fa83ce6.webp",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
@@ -55,10 +57,10 @@
     "static/media/tremor.webp": "/static/media/tremor.88c2a4a8.webp"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ce978b5.js",
+    "static/js/runtime-main.70a55ac5.js",
     "static/css/2.e09a9aa4.chunk.css",
-    "static/js/2.fa9c64c5.chunk.js",
+    "static/js/2.03d1e472.chunk.js",
     "static/css/main.df1a5e04.chunk.css",
-    "static/js/main.f9c9bf63.chunk.js"
+    "static/js/main.6ee68e7d.chunk.js"
   ]
 }
