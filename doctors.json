@@ -73,20 +73,51 @@
   ]
 },
   {
-    "docPathName": "coming-soon",
-    "imgpath":"team-image2.jpg",
-    "docName":"Coming Soon...",
+    "docPathName": "dr-neil-palkhiwala",
+    "imgpath":"dr-neil.jpg",
+    "docName":"Dr. Neil Palkhiwala",
     "specialty":"D.M. Gastroenterology & Hepatolog",
-    "desc":"",
-    "fulldesc":"",
+    "desc":"Dr. Neil Palkhiwala has completed his Doctorate of Medicine (D.M.) in the field of Gastroenterology and Hepatology from renowned Manipal Academy of Higher ...",
+    "fulldesc":"Dr. Neil Palkhiwala has completed his Doctorate of Medicine (D.M.) in the field of Gastroenterology and Hepatology from renowned Manipal Academy of Higher Education, located in the university town of Manipal, Udupi, Karnataka, India in 2020. He had completed his Doctor of Medicine (M.D.) from SMT. NHL Municipal Medical College (V. S. Hospital) – ahmedabad, gujarat - India in 2017 and M.B.B.S. from SMT. NHL Municipal Medical College (V. S. Hospital) – ahmedabad, gujarat - India in 2014. His elite methods of diagnostic and therapeutic endoscopic procedures makes him uniquely suitable for gastro related ailments.",
     "phone":"97277 27716",
     "email":"shivaay.clinic@gmail.com",
     "workinghours" : [
-      {"day":  "Monday", "time": "6.00PM-8.00PM"},
-      {"day":  "Wednesday", "time": "6.00PM-8.00PM"},
-      {"day":  "Friday", "time": "6.00PM-8.00PM"}
+      {"day":  "Monday to saturday", "time": "2 to 5"}
     ],
-    "treatments" : [],
+    "treatments": [
+      {
+        "name": "Hyperacidity",
+        "desc": "Hyperacidity is associated with burning pain in chest with heaviness of abdomen. Almost every cause of hyperacidity can be improved with appropriate intervention"
+      },
+      {
+        "name":"Flatulence",
+        "desc":"Almost everyone of us has experienced this feeling once in life which we commonly refer to as “Gas”. Worry not as it can be cured with medicines and we are here to help you."
+      },
+      {
+        "name":"Vomiting or blood in vomiting",
+        "desc":"Blood in vomiting can be serious and a sign of liver injury, but with endoscopic procedures available at present there is no need for concern. Book an appointment with us."
+      },
+      {
+        "name":"Constipation",
+        "desc":"Constipation is a common problem to variety of diseases. Whatever the disease, we are here to help you guide through it and make you better"
+      },
+      {
+        "name":"Weight loss",
+        "desc":"Weight loss can be present in cancer or even due to some infections. Consult Dr Neil today."
+      },
+      {
+        "name": "Decreased appetite",
+        "desc":"Decreased appetite is common ailment to long list of problems. Book an appointment for prompt and prolific diagnosis."
+      },
+      {
+        "name": "Inflammatory bowel disease",
+        "desc":"Our doctors are fully proficient to deal with this chronic disease that requires life-long medications."
+      },
+      {
+        "name":"Abdominal pain",
+        "desc":"Abdominal pain can be cured. Let our expert doctors help you out with best care and advanced treatments."
+      }
+    ],
     "education": [
       {
         "degree": "Doctorate of Medicine ( D.M. ) in Gastroenterology and Hepatology",
@@ -98,7 +129,7 @@
       },
       {
         "degree": "M.B.B.S",
-        "from": "SMT. NHL Municipal Medical College (V. S. Hospital) – Ahmedabad, Gujarat"
+        "from": " SMT. NHL Municipal Medical College (V. S. Hospital) – Ahmedabad, Gujarat"
       }
     ]
   },
