@@ -1319,6 +1319,9 @@ http://www.tooplate.com/view/2098-health
 .pb10 {
   padding-bottom: 10px;
 }
+.pb20 {
+  padding-bottom: 20px;
+}
 .pt15 {
   padding-top: 15px;
 }
@@ -1373,4 +1376,21 @@ http://www.tooplate.com/view/2098-health
 .img-responsive {
   display: flex;
   max-width: 100%;
+}
+
+/*---------------------------------------
+     MD Style tweaks, removed conflicted css from MDB
+  -----------------------------------------*/
+.carousel-control-next-icon::after,
+.carousel-control-prev-icon::after {
+  display: none;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  align-items: flex-end;
+}
+
+.carousel-inner {
+  padding-bottom: 10px;
 }

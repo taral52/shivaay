@@ -11,10 +11,12 @@ import { withRouter } from "react-router-dom";
 import DoctorProfile from "../../components/DoctorProfile/DoctorProfile";
 import Appointment from "../Appointment/Appointment";
 import logo from "../../assets/images/logo.png"
+import Testimonial from "../../components/Testimonial/Testimonial";
 
 class Main extends Component {
     state = {
-        doctors : []
+        doctors : [],
+        testimonials: []
     }
     references = {
         mainAppRef: React.createRef(),
@@ -55,6 +57,21 @@ class Main extends Component {
                     this.setState({doctors: doctors});
                 }
             });
+
+        fetch(process.env.PUBLIC_URL+'/testimonials.json'
+            ,{
+                headers : {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                }
+            }
+        )
+            .then(response => response.json())
+            .then(testimonials => {
+                if (testimonials) {
+                    this.setState({testimonials: testimonials});
+                }
+            });
     }
 
     render() {
@@ -76,28 +93,31 @@ class Main extends Component {
         }
         return (
             <>
-                <div ref={this.references.mainAppRef} />
+                <div ref={this.references.mainAppRef}/>
                 <Route path="/">
                     <Header references={this.references} scrollTo={this.scrollTo}/>
                 </Route>
-                <Route path="/" exact render={() => <HeaderImage imageClass='item-first' showCaption references={this.references} scrollTo={this.scrollTo}/> } />
+                <Route path="/" exact
+                       render={() => <HeaderImage imageClass='item-first' showCaption references={this.references}
+                                                  scrollTo={this.scrollTo}/>}/>
                 <Route path="/doctor/:docName" exact render={(props) => {
                     const doctor = this.state.doctors.filter((doc) => doc.docPathName === props.match.params.docName)[0];
                     return doctor ?
-                    <HeaderImage
-                        imageClass='profile-bg'
-                        references={this.references}
-                        scrollTo={this.scrollTo}
-                        name= {doctor.docName}
-                        specialty= {doctor.specialty}
-                    /> : null
-                } } />
-                { this.state.doctors && this.state.doctors.length > 0 ? <Route path="/doctor/:docName" exact render={(props) => {
-                    const doctor = this.state.doctors.filter((doc) => doc.docPathName === props.match.params.docName)[0];
-                    return doctor ? <DoctorProfile { ...doctor } /> : null
-                }} /> : null }
+                        <HeaderImage
+                            imageClass='profile-bg'
+                            references={this.references}
+                            scrollTo={this.scrollTo}
+                            name={doctor.docName}
+                            specialty={doctor.specialty}
+                        /> : null
+                }}/>
+                {this.state.doctors && this.state.doctors.length > 0 ?
+                    <Route path="/doctor/:docName" exact render={(props) => {
+                        const doctor = this.state.doctors.filter((doc) => doc.docPathName === props.match.params.docName)[0];
+                        return doctor ? <DoctorProfile {...doctor} /> : null
+                    }}/> : null}
 
-                <Route path="/" exact render={ ()=> <section id="about" className="pb10" ref={this.references.aboutRef}>
+                <Route path="/" exact render={() => <section id="about" className="pb10" ref={this.references.aboutRef}>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 col-sm-6"></div>
@@ -145,8 +165,8 @@ class Main extends Component {
                             </div>
                         </div>
                     </div>
-                </section> } />
-                <Route path="/" exact render={ ()=> {
+                </section>}/>
+                <Route path="/" exact render={() => {
                     return <section id="team" data-stellar-background-ratio="1" ref={this.references.teamRef}>
                         <div className="container-fluid">
                             <div className="col-md-6 col-sm-6">
@@ -160,7 +180,7 @@ class Main extends Component {
                             </div>
                         </div>
                     </section>
-                }} />
+                }}/>
 
                 <section id="appointment" ref={this.references.apptRef}>
                     <div className="container-fluid">
@@ -170,16 +190,23 @@ class Main extends Component {
                             </div>
 
                             <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 appointment-form">
-                                <Appointment />
+                                <Appointment/>
                             </div>
 
                         </div>
                     </div>
                 </section>
+                <section id="testimonials">
+                    <div className="container-fluid pb20">
+                        <h2 className="wow fadeInUp nomartop" data-wow-delay="0.1s">Testimonials</h2>
+                        <Testimonial testimonials={this.state.testimonials}/>
+                    </div>
+                </section>
                 <section id="google-map">
                     <iframe title="Shivaay Super Speciality Clinic"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.94701345281!2d72.64127021465436!3d23.062404084932865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87d91a921baf%3A0x5cac92ebcbb85d5d!2sShivaay%20superspeciality%20clinic!5e0!3m2!1sen!2sin!4v1617249005741!5m2!1sen!2sin"
-                        width="100%" height="350" frameBorder="0" style={{border: "0"}} allowFullScreen="" loading="lazy"></iframe>
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.94701345281!2d72.64127021465436!3d23.062404084932865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87d91a921baf%3A0x5cac92ebcbb85d5d!2sShivaay%20superspeciality%20clinic!5e0!3m2!1sen!2sin!4v1617249005741!5m2!1sen!2sin"
+                            width="100%" height="350" frameBorder="0" style={{border: "0"}} allowFullScreen=""
+                            loading="lazy"></iframe>
                 </section>
                 <footer data-stellar-background-ratio="5" ref={this.references.contactRef}>
                     <div className="container-fluid">
@@ -194,7 +221,8 @@ class Main extends Component {
 
                                     <div className="contact-info">
                                         <p><i className="fa fa-phone"></i> 97277 27716</p>
-                                        <p><i className="fa fa-envelope-o"></i> <span>shivaay.clinic@gmail.com</span></p>
+                                        <p><i className="fa fa-envelope-o"></i> <span>shivaay.clinic@gmail.com</span>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -215,8 +243,8 @@ class Main extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-md-5 col-sm-5" style={{ top: "-25px"}}>
-                                <img src={logo} alt="Shivaay Logo" className="img-responsive" />
+                            <div className="col-md-5 col-sm-5" style={{top: "-25px"}}>
+                                <img src={logo} alt="Shivaay Logo" className="img-responsive"/>
                             </div>
 
                             <div className="col-md-10 col-sm-10">
@@ -227,7 +255,8 @@ class Main extends Component {
                             <div className="col-md-2 col-sm-2 text-align-center">
                                 <div className="angle-up-btn">
                                     <button onClick={() => this.scrollTo(this.references.mainAppRef)}
-                                       className="btn btn-outline-secondary smoothScroll wow fadeInUp" data-wow-delay="1.2s">
+                                            className="btn btn-outline-secondary smoothScroll wow fadeInUp"
+                                            data-wow-delay="1.2s">
                                         <i className="fa fa-angle-up"></i></button>
                                 </div>
                             </div>
